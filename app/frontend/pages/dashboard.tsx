@@ -10,6 +10,7 @@ import service from '../service';
 import styles from '../styles/pages/Dashboard.module.css';
 
 export default function Dashboard() {
+  
   const router = useRouter();
   const [token, setToken] = useState('');
   const [username, setUserName] = useState('');
